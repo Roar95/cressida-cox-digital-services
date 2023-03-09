@@ -2,6 +2,27 @@
   --heading-font-family: ;
   --default-font-family: ;
   --default-font-color: #070f4e;
+  --navbar-default-font-color: #ffcccc;
+}
+
+.navbar {
+  background-color: var(--default-font-color);
+  opacity: 0.9;
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: var(--navbar-default-font-color);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.nav-link {
+  color: var(--navbar-default-font-color);
+}
+
+.container-fluid i {
+  color: var(--navbar-default-font-color);
 }
 
 .body {
@@ -23,7 +44,7 @@ h2 {
 .welcome {
   background: #f5ebeb;
   text-align: center;
-  padding: 190px 20px;
+  padding: 200px 20px;
 }
 
 .btn-branding {
