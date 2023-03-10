@@ -57,3 +57,28 @@ h2 {
   padding: 15px 30px;
   margin-top: 60px;
 }
+
+.about-container {
+  padding: 50px 30px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.about-container img {
+  border-radius: 100px;
+  background: #3ab1c8;
+  padding: 40px;
+  margin: 10px;
+  max-height: 580px;
+}
+
+.about-container h1 {
+  padding: 10px;
+  margin: 50px 0px 0px;
+  line-height: 1;
+}
+
+.about-container p {
+  padding: 40px 40px 0px;
+  line-height: 1.5;
+}
