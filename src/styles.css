@@ -82,3 +82,10 @@ h2 {
   padding: 40px 40px 0px;
   line-height: 1.5;
 }
+
+.portfolio-container {
+  padding: 40px;
+  margin-top: 50px;
+  text-align: center;
+  font-style: italic;
+}
