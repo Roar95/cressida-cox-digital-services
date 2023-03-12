@@ -60,28 +60,63 @@
       </div>
     </nav>
 
-    <div class="about-container">
-      <div class="row">
-        <div class="col">
-          <h1>Hello, I'm Cressie</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div class="col">
-          <img
-            src="/images/self-portrait.png"
-            alt="Cressida Cox"
-            class="img-fluid"
-          />
+    <div class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col"><i class="fa-regular fa-envelope"></i></div>
+          <div class="col">
+            <h2 class="mb-4">Let's get in touch</h2>
+            <p class="mb-0">Thank you for your interest in working with me.</p>
+            <p>Please fill out the form and I'll get back to you.</p>
+          </div>
+          <div class="col"><i class="fa-regular fa-envelope"></i></div>
         </div>
       </div>
+    </div>
+
+    <div class="contact-container container">
+      <form action="/submit">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="full-name" name="fullname" />
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="" />
+
+        <label for="telephone">Telephone</label>
+        <input type="text" id="telephone" name="telephone" placeholder="" />
+
+        <label for="services">Services</label>
+        <select id="services" name="services">
+          <option value="option">Please select one</option>
+          <option value="option">Website Design</option>
+          <option value="option">Website Development</option>
+          <option value="option">Digital Marketing</option>
+          <option value="option">All three options</option>
+        </select>
+
+        <div class="references">
+          <label for="references"
+            >How did you hear about
+            <span class="brand">Cressida Cox Digital Services?</span></label
+          >
+        </div>
+        <div>
+          <input type="radio" name="reference" id="google" />
+          <label for="google"> Google </label>
+        </div>
+
+        <div>
+          <input type="radio" name="reference" id="social-media" />
+          <label for="social-media"> Social Media </label>
+        </div>
+
+        <div>
+          <input type="radio" name="reference" id="other" />
+          <label for="other"> Other </label>
+        </div>
+
+        <input type="submit" value="Submit" id="submit" />
+      </form>
     </div>
   </body>
 </html>

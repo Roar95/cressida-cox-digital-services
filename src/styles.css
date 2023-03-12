@@ -89,3 +89,56 @@ h2 {
   text-align: center;
   font-style: italic;
 }
+
+.contact {
+  text-align: center;
+  margin-top: 100px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background: #3ab1c8;
+  opacity: 0.8;
+  color: var(--default-font-color);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+input[type="submit"]:hover {
+  background-color: #070f4e;
+  color: #ffcccc;
+}
+
+.contact-container {
+  border-radius: 5px;
+  background-color: rgba(245, 235, 235, 0.5);
+  padding: 40px;
+  margin: 40px auto;
+}
+
+.brand {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.fa-regular {
+  text-align: center;
+  font-size: 96px;
+  font-weight: 300;
+  padding: 20px;
+  color: var(--default-font-color);
+}
