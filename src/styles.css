@@ -142,3 +142,28 @@ input[type="submit"]:hover {
   padding: 20px;
   color: var(--default-font-color);
 }
+
+footer {
+  background-color: var(--default-font-color);
+  color: var(--navbar-default-font-color);
+  opacity: 0.9;
+  padding: 40px 0px 40px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+footer .social-links a {
+  margin: 0 10px;
+  color: purple;
+  background-color: turquoise;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+  justify-content: center;
+}
+
+footer .social-links a:hover {
+  color: turquoise;
+  background: purple;
+}
