@@ -66,62 +66,66 @@
     </nav>
 
     <div class="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col"><i class="fa-regular fa-envelope"></i></div>
-          <div class="col">
-            <h2 class="mb-4">Let's get in touch</h2>
-            <p class="mb-0">Thank you for your interest in working with me.</p>
-            <p>Please fill out the form and I'll get back to you.</p>
-          </div>
-          <div class="col"><i class="fa-regular fa-envelope"></i></div>
-        </div>
-      </div>
+      <h2 class="mb-2">Let's get in touch</h2>
     </div>
 
-    <div class="contact-container container">
-      <form action="/submit">
-        <label for="fullName">Full Name</label>
-        <input type="text" id="full-name" name="fullname" />
-
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="" />
-
-        <label for="telephone">Telephone</label>
-        <input type="text" id="telephone" name="telephone" placeholder="" />
-
-        <label for="services">Services</label>
-        <select id="services" name="services">
-          <option value="option">Please select one</option>
-          <option value="option">Website Design</option>
-          <option value="option">Website Development</option>
-          <option value="option">Digital Marketing</option>
-          <option value="option">All three options</option>
-        </select>
-
-        <div class="references">
-          <label for="references"
-            >How did you hear about
-            <span class="brand">Cressida Cox Digital Services?</span></label
-          >
-        </div>
-        <div>
-          <input type="radio" name="reference" id="google" />
-          <label for="google"> Google </label>
+    <div class="container">
+      <div class="row">
+        <div class="greeting col">
+          <p>Thank you for your interest in working with me.</p>
+          <img
+            src="/images/website-design.png"
+            alt="Website Developing"
+            class="img-fluid"
+          />
+          <p>Please fill out the form and I'll get back to you.</p>
         </div>
 
-        <div>
-          <input type="radio" name="reference" id="social-media" />
-          <label for="social-media"> Social Media </label>
-        </div>
+        <div class="form col">
+          <form action="/submit">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="full-name" name="fullname" />
 
-        <div>
-          <input type="radio" name="reference" id="other" />
-          <label for="other"> Other </label>
-        </div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="" />
 
-        <input type="submit" value="Submit" id="submit" />
-      </form>
+            <label for="telephone">Telephone</label>
+            <input type="text" id="telephone" name="telephone" placeholder="" />
+
+            <label for="services">Services</label>
+            <select id="services" name="services">
+              <option value="option">Please select one</option>
+              <option value="option">Website Design</option>
+              <option value="option">Website Development</option>
+              <option value="option">Digital Marketing</option>
+              <option value="option">All three options</option>
+            </select>
+
+            <div class="references">
+              <label for="references"
+                >How did you hear about
+                <span class="brand">Cressida Cox Digital Services?</span></label
+              >
+            </div>
+            <div>
+              <input type="radio" name="reference" id="google" />
+              <label for="google"> Google </label>
+            </div>
+
+            <div>
+              <input type="radio" name="reference" id="social-media" />
+              <label for="social-media"> Social Media </label>
+            </div>
+
+            <div>
+              <input type="radio" name="reference" id="other" />
+              <label for="other"> Other </label>
+            </div>
+
+            <input type="submit" value="Submit" id="submit" />
+          </form>
+        </div>
+      </div>
     </div>
 
     <footer>
